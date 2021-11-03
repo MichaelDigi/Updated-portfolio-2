@@ -1,0 +1,451 @@
+body {
+    font-family: "Montserrat";
+}
+
+
+#title {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    background-image: url(https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+}
+
+.container {
+    padding: 3% 15;
+}
+
+.animated {
+    font-size: 60px;
+    font-weight: 900;  
+    text-decoration: none;
+    background: linear-gradient(to right, black 50%, #d400d4 50%, #00ccff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+  }
+  
+  .animated:hover {
+      background-position: -100%;
+  }
+
+  .animatednav {
+    font-size: 60px;
+    font-weight: 300;  
+    text-decoration: none;
+    background: linear-gradient(to right, black 50%, #d400d4 50%, #00ccff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+  }
+  
+  .animatednav:hover {
+      background-position: -100%;
+  }
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight: 1000;
+}
+
+p {
+    color: #3b3b3b;
+    font-weight: 300;
+}
+
+/* Navigation Bar */
+
+.navbar {
+ padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+
+}
+
+.navbar-nav {
+    color: black;
+}
+
+/* Buttons */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-img {
+    width: 80%;
+}
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.features__box {
+    text-align: center;
+    padding: 5%;
+}
+
+.features__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Very Cool button */
+.coolbtns{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.coolbtns a{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    background: #fff;
+    margin: 20px;
+}
+
+.coolbtns a:before,
+.coolbtns a:after
+{
+    content: '';
+    position: absolute;
+    inset: 0;
+    transition: 0.5s;
+    background: #f00
+}
+
+.coolbtns a:nth-child(1):before,
+.coolbtns a:nth-child(1):after
+{
+    background: linear-gradient(45deg, #00ccff, rgb(24, 24, 24), rgb(24, 24, 24), #d400d4);
+}
+.coolbtns a:nth-child(2):before,
+.coolbtns a:nth-child(2):after
+{
+    background: linear-gradient(45deg, #00ccff, rgb(24, 24, 24), rgb(24, 24, 24), #d400d4);
+}
+
+.coolbtns a:hover:before {
+  inset: -3px;  
+}
+.coolbtns a:hover:after {
+    inset: -3px;  
+    filter: blur(10px);
+  }
+  
+.coolbtns a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+}
+/* 
+.carousel-item {
+    height: 32rem;
+    background: rgb(255, 255, 255);
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
+  } */
+
+  /* .overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+  } */
+  
+  #proj {
+    margin-bottom: 0px;
+  }
+
+  .projectsheader {
+      text-align: center;
+      justify-content: center;
+  }
+
+  .animatedh3 {
+    font-size: 40px;
+    font-weight: 900;  
+    text-decoration: none;
+    background: linear-gradient(to right, black 50%, #d400d4 50%, #00ccff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+  }
+  
+  .animatedh3:hover {
+      background-position: -100%;
+  }
+
+  /* Proj cards */
+  .glasscard {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 1200px;
+      flex-wrap: wrap;
+      z-index: 1;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .glasscard .card {
+      position: relative;
+      width: 280px;
+      height: 400px;
+      margin: 30px;
+      box-shadow: 20px 20px 50px rgba(0, 0, 0 ,0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.5);
+      border-left: 1px solid rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(5px);
+  }
+
+  .glasscard .card .content {
+      padding: 20px;
+      text-align: center;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: 0.5s;
+  }
+
+  .glasscard .card:hover .content {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .glasscard .card:hover .projtitle {
+       opacity: 0;
+      transition: 0.25s;
+      
+  }
+
+  .projtitle {
+      position: absolute;
+      text-align: center;
+      color: #00ccff;
+  }
+
+  .glasscard .card .content h2 {
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+  }
+
+  .glasscard .card .content h3 {
+      font-size: 1.8em;
+      color: #00ccff;
+      z-index: 1;
+  }
+
+  .glasscard .card .content p {
+      font-size: 1em;
+      color: #00ccff(0, 0, 0);
+      font-weight: 300;
+  }
+
+  .glasscard .card .container a {
+      position: relative;
+      display: inline-block;
+      padding: 8px 20px;
+      margin-top: 15px;
+      background: #fff;
+      color: #000;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: 500;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  /* .pProj {
+      color: black;
+      font-weight: bold;
+  } */
+
+/* Contact Form */
+
+.contactform {
+ width: 100%;
+ padding: 100px;
+ background: rgb(219, 219, 219);
+
+}
+
+.contactform h2 {
+    width: 100%;
+    color: #00ccff;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.contactform .row100{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(autofit,minmax(300px,1fr));
+}
+
+.contactform .row100 .col {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 10px;
+    transition: 0.5s;
+}
+
+.contactform .row100 .inputbox {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color:#00ccff ;
+}
+
+.contactform .row100 .inputbox input,
+.contactform .row100 .inputbox.textarea textarea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #000;
+}
+
+.contactform .row100 .inputbox .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px; 
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.contactform .row100 .inputbox input:focus + .text,
+.contactform .row100 .inputbox input:valid + .text {
+    top: -35px;
+    left: -10px;
+}
+
+.contactform .row100 .inputbox .line {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #00ccff;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.contactform .row100 .inputbox input:focus ~ .line,
+.contactform .row100 .inputbox input:valid ~ .line {
+    height: 100%;
+} 
+
+.contactform .row100 .inputbox.textarea {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+}
+
+.contactform .row100 .inputbox.textarea textarea {
+    height: 100%;
+    resize: none;
+}
+
+.contactform .row100 .inputbox textarea:focus + .text,
+.contactform .row100 .inputbox textarea:valid + .text {
+    top: -35px;
+    left: -10px;
+}
+.contactform .row100 .inputbox textarea:focus ~ .line,
+.contactform .row100 .inputbox textarea:valid ~ .line {
+    height: 100%;
+} 
+
+input[type="submit"] {
+    border: none;
+    padding: 7px 35px;
+    cursor: pointer;
+    outline: none;
+    background: #00ccff;
+    color: #000;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+
+/* Cursor */
+/* canvas {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
